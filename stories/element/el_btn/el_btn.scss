@@ -1,0 +1,37 @@
+@import '../../../scss/common.scss';
+
+.el_btn {
+  display: inline-block;
+  padding: 1em 1.5em;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.el_btn__primary {
+  background-color: #1ea7fd;
+  color: white;
+}
+
+.el_btn__secondary {
+  background-color: transparent;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.el_btn__sm {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+
+.el_btn__md {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+
+.el_btn__lg {
+  padding: 12px 24px;
+  font-size: 16px;
+}

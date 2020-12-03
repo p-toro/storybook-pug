@@ -1,0 +1,11 @@
+@import '../../../scss/common.scss';
+
+.bl_header {
+  background-color: #60A2AE;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+  }
+}
